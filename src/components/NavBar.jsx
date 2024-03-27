@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Menu, PersonRounded } from "@mui/icons-material";
+import { Menu, MenuOpen, PersonRounded } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
 const NavBarDiv = styled.div`
@@ -32,10 +32,10 @@ const IcoButton = styled(IconButton)`
   color: ${({ theme }) => theme.text_secondary} !import;
 `;
 
-const NavBar = () => {
+const NavBar = ({ setMenuOpen, menuOpen }) => {
   return (
     <NavBarDiv>
-      <IcoButton>
+      <IcoButton onClick={() => setMenuOpen(!menuOpen)}>
         <Menu style={{ color: "white" }} />
       </IcoButton>
       <ButtonDiv>
