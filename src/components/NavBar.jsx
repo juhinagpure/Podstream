@@ -17,9 +17,11 @@ const NavBarDiv = styled.div`
 `;
 
 const ButtonDiv = styled.div`
-font-size:14px;
+font-size:16px;
+height: 30px;
 cursor:pointer;
 max-width:70px;
+padding: 5px;
 display:flex;
 align-items:center;
 color:${({ theme }) => theme.primary};
