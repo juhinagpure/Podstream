@@ -6,7 +6,6 @@ import Signin from "../src/components/Signin.jsx";
 import OTP from "../src/components/OTP.jsx";
 import NavBar from "../src/components/NavBar.jsx";
 import Menu from "../src/components/Menu.jsx";
-import Dashboard from "../src/pages/Dashboard.jsx";
 import ToastMessage from "./components/ToastMessage.jsx";
 import Search from "../src/pages/Search.jsx";
 import Favourites from "../src/pages/Favourites.jsx";
@@ -20,9 +19,10 @@ import AudioPlayer from "./components/AudioPlayer.jsx";
 import VideoPlayer from "./components/VideoPlayer.jsx";
 import PodcastDetails from "./pages/PodcastDetails.jsx";
 import { closeSignin } from "./redux/setSigninSlice.jsx";
+import Dashboard from "./pages/Home.jsx";
 
 const Frame = styled.div`
-  display: flex;
+  display: flex
   flex-direction: column;
   flex: 3;
 `;
