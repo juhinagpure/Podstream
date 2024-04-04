@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Podstream/static/css/main.4543864b.css",
+    "main.js": "/Podstream/static/js/main.268ed8be.js",
+    "static/media/Logo.png": "/Podstream/static/media/Logo.4d963b7ab44637c392b9.png",
+    "static/media/google.webp": "/Podstream/static/media/google.c920552d98e3ca0c9df5.webp",
+    "index.html": "/Podstream/index.html",
+    "main.4543864b.css.map": "/Podstream/static/css/main.4543864b.css.map",
+    "main.268ed8be.js.map": "/Podstream/static/js/main.268ed8be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4543864b.css",
+    "static/js/main.268ed8be.js"
+  ]
+}
